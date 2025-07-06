@@ -1,0 +1,10 @@
+In order to implement a linear search algorithm to count the number of comparisons made for various input size (e.g. N = 1000, 50000), a Python program is made to find the best-case, average-case, and, the worst-case scenarios for the various values of N.
+
+The best-case of linear search is one where the target element is the first element. And hence only one comparison is made, so Time Complexity is O(1).
+The average-case is when the target element is somewhere in the middle. And hence around N/2 comparisons are made, so Time Complexity is O(N/2).
+The worst-case is when the target element is not present in the array. And due to this, N comparisons are made, so Time Complexity is O(N).
+
+The program runs for all input sizes N, and calculates the number of comparisons for each and uses this data to plot in a graph using the matplotlib library.
+The graph shows a trend to that of a linear growing graph, and for the best-case, average-case and the worst-case it remains to be O(1), O(N/2), and O(N) respectively.
+
+Thus, the emperical results matches with the theoretical values, showing that the linear search increases linearly as size (N) increases.
