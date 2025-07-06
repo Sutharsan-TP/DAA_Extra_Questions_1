@@ -1,0 +1,10 @@
+The linear search algorithm was implemented using Python, and the three time complexities for best-case, average-case, and, worst-case was found.
+Lists of random sizes of N (e.g. 1000, 20000) of random integers was used for finding time taken to find a target for 10,000 trials.
+
+Hence I found out that:
+The best-case of linear search is one where the target element is the first element. And Time Complexity is O(1).
+The average-case is when the target element is somewhere in the middle. And Time Complexity is around O(N/2).
+The worst-case is when the target element is not present in the array. And Time Complexity is O(N).
+
+And the results of the time taken was plotted in a graph using matplotlib.
+It is observed that for the best-case, the line is constant, the average-case and the worst-case is showing a linearly increasing trend.
